@@ -1,0 +1,33 @@
+mat-card-header {
+  &.card-1,
+  &.card-4,
+  &.card-7 {
+    background-color: gray;
+    color: black;
+  }
+  &.card-2,
+  &.card-5 {
+    background-color: blue;
+    color: white;
+  }
+  &.card-3,
+  &.card-6 {
+    background-color: lightcoral;
+    color: orange;
+  }
+}
+
+mat-card {
+  padding: 0;
+}
+
+mat-card-content {
+  padding: 15px;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px 20px 100px;
+  justify-content: center;
+}
