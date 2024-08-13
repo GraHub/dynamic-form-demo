@@ -1,51 +1,40 @@
-<mat-card>
-    <mat-card-header>
-        <mat-card-title>Title</mat-card-title>
-        <mat-card-subtitle>Subtitle</mat-card-subtitle>
-    </mat-card-header>
-    <img matCardImage src="Card wide image source">
-    <mat-card-content>
-        Text content
-    </mat-card-content>
-    <mat-card-actions align="start">
-        <button mat-button (click)="buttonClick()">Action1</button>
-
-    </mat-card-actions>
-    <mat-card-footer>
-        Footer
-    </mat-card-footer>
-</mat-card>
-<mat-card>
-    <mat-card-header>
-        <mat-card-title>Title</mat-card-title>
-        <mat-card-subtitle>Subtitle</mat-card-subtitle>
-    </mat-card-header>
-    <img matCardImage src="Card wide image source">
-    <mat-card-content>
-        Text content
-    </mat-card-content>
-    <mat-card-actions align="start">
-        <button mat-button (click)="buttonClick()">Action1</button>
-
-    </mat-card-actions>
-    <mat-card-footer>
-        Footer
-    </mat-card-footer>
-</mat-card>
-<mat-card>
-    <mat-card-header>
-        <mat-card-title>Title</mat-card-title>
-        <mat-card-subtitle>Subtitle</mat-card-subtitle>
-    </mat-card-header>
-    <img matCardImage src="Card wide image source">
-    <mat-card-content>
-        Text content
-    </mat-card-content>
-    <mat-card-actions align="start">
-        <button mat-button (click)="buttonClick()">Action1</button>
-
-    </mat-card-actions>
-    <mat-card-footer>
-        Footer
-    </mat-card-footer>
-</mat-card>
+<div class="container">
+  <div class="row mt-4 category-list">
+      <mat-card class="col border border-3 rounded m-4">
+        <mat-card-header>
+          <mat-card-title>Course</mat-card-title>
+          <mat-card-subtitle>Course Petition</mat-card-subtitle>
+        </mat-card-header>
+        <img matCardImage src="" />
+        <mat-card-content> Complete the form to join a new training </mat-card-content>
+        <mat-card-actions align="start">
+          <button mat-button (click)="buttonClick()">Request a new course</button>
+        </mat-card-actions>
+        <mat-card-footer> Info </mat-card-footer>
+      </mat-card>
+      <mat-card class="col border border-3 rounded m-4">
+        <mat-card-header>
+          <mat-card-title>Course</mat-card-title>
+          <mat-card-subtitle>Evaluation petition</mat-card-subtitle>
+        </mat-card-header>
+        <img matCardImage src="" />
+        <mat-card-content> Complete the form to request for a sit to take the test </mat-card-content>
+        <mat-card-actions align="start">
+          <button mat-button (click)="buttonClick()">Request for a sit</button>
+        </mat-card-actions>
+        <mat-card-footer> Info </mat-card-footer>
+      </mat-card>
+      <mat-card class="col border border-3 rounded m-4">
+        <mat-card-header>
+          <mat-card-title>Title</mat-card-title>
+          <mat-card-subtitle>Subtitle</mat-card-subtitle>
+        </mat-card-header>
+        <img matCardImage src="" />
+        <mat-card-content> Text content </mat-card-content>
+        <mat-card-actions align="start">
+          <button mat-button (click)="buttonClick()">Action1</button>
+        </mat-card-actions>
+        <mat-card-footer> Footer </mat-card-footer>
+      </mat-card>
+  </div>
+</div>
